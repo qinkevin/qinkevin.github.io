@@ -11,11 +11,10 @@ tags:
 ---
 # Boosting
 
-- 
-
 # GB
 
 # GBDT
 
 - GBDT全称为Gradient Boost Decision Tree,可以用来做分类、回归
--
+
+# xgboost
