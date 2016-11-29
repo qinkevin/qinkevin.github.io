@@ -9,13 +9,13 @@ catalog: true
 tags:
     - 机器学习
 ---
-#Boosting
+# Boosting
 
 - 
 
-#GB
+# GB
 
-#GBDT
+# GBDT
 
 - GBDT全称为Gradient Boost Decision Tree,可以用来做分类、回归
 -
