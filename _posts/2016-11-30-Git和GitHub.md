@@ -22,6 +22,7 @@ tags:
 - 把一个文件放到Git仓库只需要两步：第一步，用命令git add告诉Git,把文件添加到仓库。第二步，用命令git commit告诉Git,把文件提交到仓库
 - git commit 命令，-m后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录
 - 之所以Git添加文件需要add，commit一共两步是因为commit可以一次提交很多文件，所以你可以多次add不同的文件
+- git add会将文件暂存，放到staging area中
 - git status命令可以让我们时刻掌握仓库当前的状态
 - git reset 命令回退到某个版本
 - commit的原则应该是每一次逻辑上的更改做一次提交
