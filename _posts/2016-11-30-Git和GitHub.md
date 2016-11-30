@@ -24,3 +24,6 @@ tags:
 - 之所以Git添加文件需要add，commit一共两步是因为commit可以一次提交很多文件，所以你可以多次add不同的文件
 - git status命令可以让我们时刻掌握仓库当前的状态
 - git reset 命令回退到某个版本
+- commit的原则应该是每一次逻辑上的更改做一次提交
+- git-clone - Clone a repository into a new directory
+- git-checkout - Switch branches or restore working tree files
