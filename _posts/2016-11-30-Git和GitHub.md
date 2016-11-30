@@ -13,5 +13,6 @@ tags:
 
 # Git
 
-- git-log 显示提交的日志
-- git diff 比较项目中任意两个版本的差异
+- git-log:显示提交的日志
+- git diff:比较项目中任意两个版本的差异
+- git commit：提交当前工作空间的修改内容
