@@ -28,3 +28,7 @@ tags:
 - commit的原则应该是每一次逻辑上的更改做一次提交
 - git-clone - Clone a repository into a new directory
 - git-checkout - Switch branches or restore working tree files
+- git diff 会对比working directory和staging area；git diff --staged 会对比staging area 与commit；git diff commit1 commit2 会对比两次提交
+- git branch 不带参数：列出本地已经存在的分支，并且在当前分支的前面加*号标记
+- git branch 创建一个新的本地分支，需要注意，此处只是创建分支，不进行分支切换.如需切换分支，可以使用git checkout
+- 
