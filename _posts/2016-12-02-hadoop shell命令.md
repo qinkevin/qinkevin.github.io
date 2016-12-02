@@ -7,7 +7,7 @@ author:     "随机漫步的傻瓜"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 其他
+    - 大数据
 ---
 
 # Hadoop shell 命令
