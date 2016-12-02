@@ -24,11 +24,19 @@ tags:
 - 之所以Git添加文件需要add，commit一共两步是因为commit可以一次提交很多文件，所以你可以多次add不同的文件
 - git add会将文件暂存，放到staging area中
 - git status命令可以让我们时刻掌握仓库当前的状态
-- git reset 命令回退到某个版本
+- HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id
 - commit的原则应该是每一次逻辑上的更改做一次提交
 - git-clone - Clone a repository into a new directory
 - git-checkout - Switch branches or restore working tree files
 - git diff 会对比working directory和staging area；git diff --staged 会对比staging area 与commit；git diff commit1 commit2 会对比两次提交
 - git branch 不带参数：列出本地已经存在的分支，并且在当前分支的前面加*号标记
-- git branch 创建一个新的本地分支，需要注意，此处只是创建分支，不进行分支切换.如需切换分支，可以使用git checkout
-- 
+- git branch 创建一个新的本地分支，需要注意，此处只是创建分支，不进行分支切换.如需切换分支，可以使用git checkout.
+- git checkout -b newbranchname会创建一个新的branch并切换到该branch
+- git branch -d branchname会删除branch
+- git show 显示某次提交的内容 git show $id
+- git-push - Update remote refs along with associated objects
+- git pull：相当于是从远程获取最新版本并merge到本地
+- git fetch：相当于是从远程获取最新版本到本地，不会自动merge
+- 在Git中，用HEAD表示当前版本，上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100
+- git reflog用来记录每一次命令
+- 工作区（Working Directory）就是你在电脑里能看到的目录
