@@ -9,3 +9,6 @@ catalog: true
 tags:
     - 量化投资
 ---
+
+# Chapter I why Python for Finance?
+- Close is the actual price that was reported at the exchange when the stock closed for that day.Adjusted Close is a number that the data provider generates for us.And it's adjusted as the name implies, for certain things like stocks, splits, and dividend payments. 
