@@ -13,8 +13,6 @@ tags:
 # Chapter 1 why Python for Finance?
 - Close is the actual price that was reported at the exchange when the stock closed for that day.Adjusted Close is a number that the data provider generates for us.And it's adjusted as the name implies, for certain things like stocks, splits, and dividend payments.
 
-# Chapter 2 Infrastructure and Tools
-
 # Chapter 3 Introductory Examples
 - Monte Carlo simulation is one of the most important algorithms in finance and numerical science in general. Its importance stems from the fact that it is quite powerful when it comes to option pricing or risk management problems. In comparison to other numerical methods, the Monte Carlo method can easily cope with high-dimensional problems where the complexity and computational demand, respectively, generally increase in linear fashion
 - The downside of the Monte Carlo method is that it is per se computationally demanding and often needs huge amounts of memory even for quite simple problems. Therefore, it is necessary to implement Monte Carlo algorithms efficiently
