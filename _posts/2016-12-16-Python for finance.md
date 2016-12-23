@@ -18,3 +18,6 @@ tags:
 - The downside of the Monte Carlo method is that it is per se computationally demanding and often needs huge amounts of memory even for quite simple problems. Therefore, it is necessary to implement Monte Carlo algorithms efficiently
 - daily return is simply how much did the price go up or down on a particular day
 - If you are going to fill your data to resolve problems with gaps, fill forward first and fill backward second.
+
+# Chapter 5 Data Visualization
+- 在不同的时间,不同的价位区间,不同的履约价都会有不同的隐含波动率,这种现象称之为波动率平面(volatility surface)
