@@ -21,3 +21,8 @@ tags:
 
 # Chapter 5 Data Visualization
 - 在不同的时间,不同的价位区间,不同的履约价都会有不同的隐含波动率,这种现象称之为波动率平面(volatility surface)
+
+# Chapter 7 Input/Output Operations
+- Serialization refers to the conversion of an object (hierarchy) to a byte stream; deserialization is the opposite operation
+- Obviously, pickle stores objects according to the first in, first out (FIFO) principle. There is one major problem with this: there is no meta-information available to the user to know beforehand what is stored in a pickle file. A sometimes helpful workaround is to not store single objects, but a dict object containing all the other objects
+- A major advantage of working with PyTables is the approach it takes to compression. It uses compression not only to save space on disk, but also to improve the performance of I/O operations. How does this work? When I/O is the bottleneck and the CPU is able to (de)compress data fast, the net effect of compression in terms of speed might be positive.
