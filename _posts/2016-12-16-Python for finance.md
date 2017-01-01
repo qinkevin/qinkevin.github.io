@@ -26,3 +26,17 @@ tags:
 - Serialization refers to the conversion of an object (hierarchy) to a byte stream; deserialization is the opposite operation
 - Obviously, pickle stores objects according to the first in, first out (FIFO) principle. There is one major problem with this: there is no meta-information available to the user to know beforehand what is stored in a pickle file. A sometimes helpful workaround is to not store single objects, but a dict object containing all the other objects
 - A major advantage of working with PyTables is the approach it takes to compression. It uses compression not only to save space on disk, but also to improve the performance of I/O operations. How does this work? When I/O is the bottleneck and the CPU is able to (de)compress data fast, the net effect of compression in terms of speed might be positive.
+
+# Chapter 8. Performance Python
+- In effect, Cython is a hybrid language of Python and C. Coming from Python, the major differences to be noticed are the static type declarations (as in C) and a separate compiling step (as with any compiled language).
+- Nowadays, the Python ecosystem provides a number of ways to improve the performance of code:
+1. Paradigms
+> Some Python paradigms might be more performant than others, given a specific problem.
+
+2. Libraries
+> There is a wealth of libraries available for different types of problems, which often lead to much higher performance given a problem that fits into the scope of the library (e.g., numexpr).
+
+3. Compiling
+> A number of powerful compiling solutions are available, including static (e.g., Cython) and dynamic ones (e.g., Numba).
+4. Parallelization
+> Some Python libraries have built-in parallelization capabilities (e.g., numexpr), while others allow us to harness the full power of multiple-core CPUs, whole clusters (e.g., IPython.parallel), or GPUs (e.g., NumbaPro).
