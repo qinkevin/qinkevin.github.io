@@ -31,18 +31,13 @@ tags:
 - In effect, Cython is a hybrid language of Python and C. Coming from Python, the major differences to be noticed are the static type declarations (as in C) and a separate compiling step (as with any compiled language).
 - Nowadays, the Python ecosystem provides a number of ways to improve the performance of code:
 
-1. Paradigms
+1. Paradigms：Some Python paradigms might be more performant than others, given a specific problem.
 
-> Some Python paradigms might be more performant than others, given a specific problem.
+2. Libraries：There is a wealth of libraries available for different types of problems, which often lead to much higher performance given a problem that fits into the scope of the library (e.g., numexpr).
 
-2. Libraries
+3. Compiling：A number of powerful compiling solutions are available, including static (e.g., Cython) and dynamic ones (e.g., Numba).
 
-> There is a wealth of libraries available for different types of problems, which often lead to much higher performance given a problem that fits into the scope of the library (e.g., numexpr).
+4. Parallelization：Some Python libraries have built-in parallelization capabilities (e.g., numexpr), while others allow us to harness the full power of multiple-core CPUs, whole clusters (e.g., IPython.parallel), or GPUs (e.g., NumbaPro).
 
-3. Compiling
-
-> A number of powerful compiling solutions are available, including static (e.g., Cython) and dynamic ones (e.g., Numba).
-
-4. Parallelization
-
-> Some Python libraries have built-in parallelization capabilities (e.g., numexpr), while others allow us to harness the full power of multiple-core CPUs, whole clusters (e.g., IPython.parallel), or GPUs (e.g., NumbaPro).
+# Chapter 9. Mathematical Tools
+- When doing mathematics with Python, you should always think of SymPy and symbolic computations. Especially for interactive financial analytics, this can be a more efficient approach compared to non-symbolic approaches
