@@ -41,3 +41,10 @@ tags:
 
 # Chapter 9. Mathematical Tools
 - When doing mathematics with Python, you should always think of SymPy and symbolic computations. Especially for interactive financial analytics, this can be a more efficient approach compared to non-symbolic approaches
+
+# Chapter 10. Stochastics
+- The Poisson distribution is used, for example, to simulate the arrival of (rare) external events, like a jump in the price of an instrument or an exogenic shock
+- Monte Carlo simulation (MCS) is among the most important numerical techniques in finance, if not the most important and widely used. This mainly stems from the fact that it is the most flexible numerical method when it comes to the evaluation of mathematical expressions (e.g., integrals), and specifically the valuation of financial derivatives. The flexibility comes at the cost of a relatively high computational burden, though, since often hundreds of thousands or even millions of complex computations have to be carried out to come up with a single value estimate.
+- Roughly speaking, a stochastic process is a sequence of random variables. In that sense, we should expect something similar to a sequence of repeated simulations of a random variable when simulating a process. This is mainly true, apart from the fact that the draws are in general not independent but rather depend on the result(s) of the previous draw(s). In general, however, stochastic processes used in finance exhibit the Markov property, which mainly says that tomorrow’s value of the process only depends on today’s state of the process, and not any other more “historic” state or even the whole path history. The process then is also called memoryless.
+- In words, VaR is a number denoted in currency units (e.g., USD, EUR, JPY) indicating a loss (of a portfolio, a single position, etc.) that is not exceeded with some confidence level (probability) over a given period of time.
+- Roughly speaking, CVaR is a measure for the risk resulting from the possibility that a counterparty might not be able to honor its obligations.In such a case there are two main assumptions to be made: probability of default and the (average) loss level.
