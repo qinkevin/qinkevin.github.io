@@ -48,3 +48,7 @@ tags:
 - Roughly speaking, a stochastic process is a sequence of random variables. In that sense, we should expect something similar to a sequence of repeated simulations of a random variable when simulating a process. This is mainly true, apart from the fact that the draws are in general not independent but rather depend on the result(s) of the previous draw(s). In general, however, stochastic processes used in finance exhibit the Markov property, which mainly says that tomorrow’s value of the process only depends on today’s state of the process, and not any other more “historic” state or even the whole path history. The process then is also called memoryless.
 - In words, VaR is a number denoted in currency units (e.g., USD, EUR, JPY) indicating a loss (of a portfolio, a single position, etc.) that is not exceeded with some confidence level (probability) over a given period of time.
 - Roughly speaking, CVaR is a measure for the risk resulting from the possibility that a counterparty might not be able to honor its obligations.In such a case there are two main assumptions to be made: probability of default and the (average) loss level.
+
+# Chapter 11. Statistics
+- numpy中，The method flatten returns a 1D array with all the data given in a multidimensional array.
+- Usually, PCA works with normalized data sets
