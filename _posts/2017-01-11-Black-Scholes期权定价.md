@@ -2,7 +2,7 @@
 layout:     post
 title:      "Black-Scholes期权定价模型"
 subtitle:
-date:       2019-1-11 11:00:00
+date:       2017-1-11 11:00:00
 author:     "随机漫步的傻瓜"
 header-img: "img/post-bg-2015.jpg"
 catalog: true

@@ -2,7 +2,7 @@
 layout:     post
 title:      "JoinQuant量化课堂学习笔记"
 subtitle:
-date:       2019-1-22 18:00:00
+date:       2017-1-22 18:00:00
 author:     "随机漫步的傻瓜"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
