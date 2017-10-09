@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "整数中1的出现次数"
+title:      "Hands-on-Machine-Learning-with-Sklearn-and-TensorFlow"
 subtitle:
 date:       2017-10-09 11:00:00
 author:     "随机漫步的傻瓜"
