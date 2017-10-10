@@ -37,3 +37,10 @@ tags:
 - Dropout:at every training step, every neuron (including the input neurons but excluding the output neurons) has a probability p of being tem‐ porarily “dropped out,” meaning it will be entirely ignored during this training step, but it may be active during the next step
 - If you observe that the model is overfitting, you can increase the dropout rate (i.e., reduce the keep_prob hyperparameter). Conversely, you should try decreasing the dropout rate (i.e., increasing keep_prob) if the model underfits the training set. It can also help to increase the dropout rate for large layers, and reduce it for small ones.
 - One last regularization technique, data augmentation, consists of generating new training instances from existing ones, artificially boosting the size of the training set. This will reduce overfitting, making this a regularization technique
+- A hyperparameter is a parameter of a learning algorithm (not of the model). As such, it is not affected by the learning algorithm itself; it must be set prior to training and remains constant during training
+- Another problem with CNNs is that the convolutional layers require a huge amount of RAM, especially during training, because the reverse pass of backpropagation requires all the intermediate values computed during the forward pass
+- dropout should be applied only during training
+- As you can see, an autoencoder typically has the same architecture as a Multi-Layer Perceptron, except that the number of neurons in the output layer must be equal to the number of inputs
+- Another way to force the autoencoder to learn useful features is to add noise to its inputs, training it to recover the original, noise-free inputs.The noise can be pure Gaussian noise added to the inputs, or it can be randomly switched off inputs, just like in dropout.
+- In Reinforcement Learning, a software agent makes observations and takes actions within an environment, and in return it receives rewards. Its objective is to learn to act in a way that will maximize its expected long-term rewards.
+- The algorithm used by the software agent to determine its actions is called its policy.
